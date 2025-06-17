@@ -6,8 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
-node_modules
+# Geliştirme ortamındaki node_modules klasörü dahil edilmesin
+node_modules/
 dist
 dist-ssr
 *.local
