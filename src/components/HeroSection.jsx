@@ -21,14 +21,16 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Kendime güvenen, sürekli öğrenmeye açık ve yenilikçi çözümler üretmeye odaklı bir full stack geliştiriciyim. Amacım, teknolojiyle değer katan işler ortaya koymak ve yazılım dünyasında fark yaratmak.
+            Kendine güvenen, sürekli öğrenmeye açık ve yenilikçi çözümler üretmeye odaklı bir full stack geliştiriciyim. Amacım, teknolojiyle değer katan işler ortaya koymak ve yazılım dünyasında fark yaratmak.
           </p>
 
-          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-            <a href="#projects" className="cosmic-button">
+
+          <div className="pt-4 flex justify-center opacity-0 animate-fade-in-delay-4">
+            <a href="#projects" className="cosmic-button inline-flex items-center">
               Geliştirdiğim Projeler İçin Tıklayınız
             </a>
           </div>
+
         </div>
       </div>
 
