@@ -34,11 +34,12 @@ export const AboutSection = () => {
 
               <a
                 href="/FurkanSOYLUCV.pdf"
-                download
+                download="FurkanSOYLUCV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 CV İndir
               </a>
+
 
             </div>
           </div>
