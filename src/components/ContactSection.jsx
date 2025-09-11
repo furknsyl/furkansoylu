@@ -31,17 +31,17 @@ export const ContactSection = () => {
       .then(
         () => {
           toast({
-            title: "Message sent!",
+            title: "Mesaj Gönderildi!",
             description:
-              "Thank you for your message. I'll get back to you soon.",
+              "Mesajınız için teşekkürler. En kısa sürede size geri dönüş yapacağım.",
           });
           setIsSubmitting(false);
           e.target.reset();
         },
         (error) => {
           toast({
-            title: "Error!",
-            description: "Something went wrong. Please try again later.",
+            title: "Hata!",
+            description: "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin.",
           });
           setIsSubmitting(false);
           console.error("EmailJS error:", error);
