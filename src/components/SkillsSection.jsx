@@ -3,25 +3,30 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 80, category: "frontend" },
+  { name: "HTML", level: 90, category: "frontend" },
+  { name: "CSS", level: 85, category: "frontend" },
   { name: "JavaScript", level: 70, category: "frontend" },
+  { name: "TypeScript", level: 70, category: "frontend" },
   { name: "React", level: 60, category: "frontend" },
+  { name: "Next.js", level: 60, category: "frontend" },
 
   // Backend
   { name: "C#", level: 80, category: "backend" },
-  { name: ".NET / .NET Core / ASP.NET MVC", level: 80, category: "backend" },
+  { name: ".NET", level: 80, category: "backend" },
+  { name: "ASP.NET MVC", level: 75, category: "backend" },
   { name: "Python", level: 70, category: "backend" },
-  { name: "SQL Server", level: 90, category: "backend" },
-  { name: "C++", level: 50, category: "backend" },
+
+  // Database
+  { name: "MSSQL", level: 90, category: "veritabanı" },
+  { name: "PostgreSQL", level: 75, category: "veritabanı" },
 
   // Tools
-  { name: "Git/GitHub", level: 90, category: "araçlar" },
+  { name: "Git / GitHub", level: 90, category: "araçlar" },
+  { name: "Docker", level: 60, category: "araçlar" },
   { name: "Power BI", level: 60, category: "araçlar" },
-  { name: "Docker", level: 25, category: "araçlar" },
-  { name: "VS Code", level: 95, category: "araçlar" },
 ];
 
-const categories = ["Hepsi", "frontend", "backend", "araçlar"];
+const categories = ["Hepsi", "frontend", "backend", "veritabanı", "araçlar"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("Hepsi");
