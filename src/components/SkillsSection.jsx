@@ -5,15 +5,15 @@ const skills = [
   // Frontend
   { name: "HTML", level: 90, category: "frontend" },
   { name: "CSS", level: 85, category: "frontend" },
-  { name: "JavaScript", level: 70, category: "frontend" },
-  { name: "TypeScript", level: 70, category: "frontend" },
+  { name: "JavaScript", level: 60, category: "frontend" },
+  { name: "TypeScript", level: 60, category: "frontend" },
   { name: "React", level: 60, category: "frontend" },
   { name: "Next.js", level: 60, category: "frontend" },
 
   // Backend
   { name: "C#", level: 80, category: "backend" },
   { name: ".NET", level: 80, category: "backend" },
-  { name: "ASP.NET MVC", level: 75, category: "backend" },
+  { name: "ASP.NET MVC", level: 80, category: "backend" },
   { name: "Python", level: 70, category: "backend" },
 
   // Database
