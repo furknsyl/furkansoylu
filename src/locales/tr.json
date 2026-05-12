@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "skills": "Yeteneklerim",
+    "projects": "Projelerim",
+    "contact": "İletişim",
+    "openMenu": "Menüyü Aç",
+    "closeMenu": "Menüyü Kapat"
+  },
+  "hero": {
+    "greeting": "Merhaba, Ben",
+    "tagline": "Kendine güvenen, sürekli öğrenmeye açık ve yenilikçi çözümler üretmeye odaklı bir full stack geliştiriciyim. Amacım, teknolojiyle değer katan işler ortaya koymak ve yazılım dünyasında fark yaratmak.",
+    "cta": "Geliştirdiğim Projeler İçin Tıklayınız",
+    "scroll": "Kaydır"
+  },
+  "about": {
+    "titlePrefix": "Benim",
+    "titleHighlight": "Hakkımda",
+    "subtitle": "Tutkulu Yazılım Geliştiricisi & Teknoloji Meraklısı",
+    "bio1": "Bilişim sistemleri mühendisliği öğrencisi olarak, full-stack geliştirme, veri bilimi ve veritabanı yönetimi alanlarında kendimi sürekli geliştiriyorum. Modern teknolojilerle işlevsel, erişilebilir ve kullanıcı odaklı çözümler üretmeye odaklanıyorum.",
+    "bio2": "Karmaşık problemleri sade ve etkili yöntemlerle çözmekten büyük keyif alıyorum. Sürekli öğrenmeye olan ilgim sayesinde, yazılım dünyasındaki gelişmeleri yakından takip ediyor ve kendimi her gün bir adım ileri taşımaya çalışıyorum.",
+    "bio3": "Benim hakkımda daha fazla bilgi için lütfen aşağıdan cv'yi indiriniz...",
+    "contact": "İletişime Geç",
+    "downloadCV": "CV İndir",
+    "card1Title": "Web Geliştirme",
+    "card1Desc": "Modern framework'ler kullanarak duyarlı web siteleri ve web uygulamaları geliştiriyorum.",
+    "card2Title": "Veri Analizi & Yönetimi",
+    "card2Desc": "Verileri analiz ediyor, anlamlı içgörüler çıkarıyor ve etkili veri yönetim çözümleri geliştiriyorum.",
+    "card3Title": "Yazılım Geliştirme Süreçleri",
+    "card3Desc": "Planlamadan geliştirmeye kadar yazılım projelerinin tüm aşamalarında aktif rol alıyor, çevik yöntemlerle etkili çözümler üretiyorum."
+  },
+  "skills": {
+    "titlePrefix": "Benim",
+    "titleHighlight": "Yeteneklerim",
+    "all": "Hepsi",
+    "frontend": "frontend",
+    "backend": "backend",
+    "database": "veritabanı",
+    "tools": "araçlar"
+  },
+  "projects": {
+    "titlePrefix": "Bazı",
+    "titleHighlight": "Projelerim",
+    "subtitle": "İşte geliştirdiğim projelerden bazıları. Her biri detaylara, performansa ve kullanıcı deneyimine özen gösterilerek titizlikle hazırlandı.",
+    "github": "Daha fazlası için GitHub'ımı inceleyin",
+    "project1Title": "Restoran Sipariş Yönetim Sistemi",
+    "project1Desc": "Bu projeyi ASP.NET Core 8.0 ve SignalR teknolojilerini kullanarak geliştirdim. Restoran sipariş yönetimini kolaylaştırmak amacıyla tasarladığım bu sistemde, kullanıcılar QR kodlarını tarayarak menüye erişebilir, sipariş verebilir ve rezervasyon oluşturabilir. Siparişler, anlık olarak mutfağa iletilirken, tüm süreçler gerçek zamanlı yönetilebiliyor.",
+    "project2Title": "Otel Kiralama Websitesi",
+    "project2Desc": "Asp.Net Core kullanarak N Tier mimaride otel kiralama sitesi geliştirdim. Asp.Net Identity ve JWT ile güvenli kullanıcı kayıt ve giriş işlemleri sağladım. Entity Framework Core ile veri yönetimini gerçekleştirdim. Swagger ve Postman ile API testlerini yaptım. Fluent Validation ile kullanıcı verilerini doğruladım ve mailing sistemiyle kullanıcı bildirimleri gönderdim.",
+    "project3Title": "AI Görüntü Oluşturucu",
+    "project3Desc": "Bu projeyi React ile kendim geliştirdim. Kullanıcıların yazdıkları metinlere göre yapay zeka destekli görseller oluşturmasını sağlamak için OpenAI'nin DALL·E API'sini entegre ettim. Basit ve kullanışlı arayüz sayesinde kullanıcılar metin girip, yapay zeka tarafından oluşturulan resimleri görebiliyor. React komponent yapısı ve API çağrılarını etkin kullandım, böylece hem yapay zeka teknolojilerini deneyimledim hem de frontend yeteneklerimi geliştirdim."
+  },
+  "contact": {
+    "titlePrefix": "Benimle",
+    "titleHighlight": "İletişime Geç",
+    "subtitle": "Bana ulaşmak için aşağıdaki formu doldurabilirsiniz. Her türlü soru ve iş birliği tekliflerinizi memnuniyetle bekliyorum.",
+    "infoTitle": "İletişim Bilgileri",
+    "phone": "Telefon",
+    "location": "Konum",
+    "social": "Sosyal Medyalarım",
+    "formTitle": "Mesaj Gönder",
+    "nameLabel": "Adınız Soyadınız",
+    "namePlaceholder": "İsim Soyisim...",
+    "emailLabel": "Email Adresiniz",
+    "emailPlaceholder": "Emailinizi giriniz...",
+    "messageLabel": "Mesajınız",
+    "messagePlaceholder": "Mesajınızı yazınız...",
+    "send": "Mesajı Gönder",
+    "sending": "Gönderiliyor...",
+    "successTitle": "Mesaj Gönderildi!",
+    "successDesc": "Mesajınız için teşekkürler. En kısa sürede size geri dönüş yapacağım.",
+    "errorTitle": "Hata!",
+    "errorDesc": "Bir sorun oluştu. Lütfen daha sonra tekrar deneyin."
+  }
+}

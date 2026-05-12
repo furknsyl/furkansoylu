@@ -1,19 +1,22 @@
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { ThemeToggle } from "./ThemeToggle";
-
-const navItems = [
-  { name: "Ana Sayfa", href: "#hero" },
-  { name: "Hakkımda", href: "#about" },
-  { name: "Yeteneklerim", href: "#skills" },
-  { name: "Projelerim", href: "#projects" },
-  { name: "İletişim", href: "#contact" },
-];
+import { LanguageToggle } from "./LanguageToggle";
 
 export const Navbar = () => {
+  const { t } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const navItems = [
+    { name: t("nav.home"), href: "#hero" },
+    { name: t("nav.about"), href: "#about" },
+    { name: t("nav.skills"), href: "#skills" },
+    { name: t("nav.projects"), href: "#projects" },
+    { name: t("nav.contact"), href: "#contact" },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -31,7 +34,7 @@ export const Navbar = () => {
         isScrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : "py-5"
       )}
     >
-      <div className="container flex items-center justify-between">
+      <div className="container flex items-center justify-between pr-0">
         <a
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
@@ -42,7 +45,7 @@ export const Navbar = () => {
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex space-x-8">
+        <div className="hidden md:flex items-center space-x-8">
           {navItems.map((item, key) => (
             <a
               key={key}
@@ -52,13 +55,17 @@ export const Navbar = () => {
               {item.name}
             </a>
           ))}
+          <div className="flex items-center gap-1 pl-2">
+            <LanguageToggle />
+            <ThemeToggle />
+          </div>
         </div>
 
         {/* Mobile nav toggle */}
         <button
           onClick={() => setIsMenuOpen((prev) => !prev)}
           className="md:hidden p-2 text-foreground z-50"
-          aria-label={isMenuOpen ? "Close Menu" : "Open Menu"}
+          aria-label={isMenuOpen ? t("nav.closeMenu") : t("nav.openMenu")}
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
@@ -85,8 +92,11 @@ export const Navbar = () => {
               </a>
             ))}
 
-            {/* Mobile Theme Toggle */}
-            <ThemeToggle />
+            {/* Mobile Toggles */}
+            <div className="flex items-center gap-2">
+              <LanguageToggle />
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       </div>

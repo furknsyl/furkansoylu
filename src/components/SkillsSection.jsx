@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "react-i18next";
 
 const skills = [
   // Frontend
@@ -17,32 +18,34 @@ const skills = [
   { name: "Python", level: 70, category: "backend" },
 
   // Database
-  { name: "MSSQL", level: 90, category: "veritabanı" },
-  { name: "PostgreSQL", level: 75, category: "veritabanı" },
+  { name: "MSSQL", level: 90, category: "database" },
+  { name: "PostgreSQL", level: 75, category: "database" },
 
   // Tools
-  { name: "Git / GitHub", level: 90, category: "araçlar" },
-  { name: "Docker", level: 60, category: "araçlar" },
-  { name: "Power BI", level: 60, category: "araçlar" },
+  { name: "Git / GitHub", level: 90, category: "tools" },
+  { name: "Docker", level: 60, category: "tools" },
+  { name: "Power BI", level: 60, category: "tools" },
 ];
 
-const categories = ["Hepsi", "frontend", "backend", "veritabanı", "araçlar"];
+const categoryKeys = ["all", "frontend", "backend", "database", "tools"];
 
 export const SkillsSection = () => {
-  const [activeCategory, setActiveCategory] = useState("Hepsi");
+  const { t } = useTranslation();
+  const [activeCategory, setActiveCategory] = useState("all");
 
   const filteredSkills = skills.filter(
-    (skill) => activeCategory === "Hepsi" || skill.category === activeCategory
+    (skill) => activeCategory === "all" || skill.category === activeCategory
   );
+
   return (
     <section id="skills" className="py-24 px-4 relative bg-secondary/30">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-          Benim <span className="text-primary"> Yeteneklerim</span>
+          {t("skills.titlePrefix")} <span className="text-primary"> {t("skills.titleHighlight")}</span>
         </h2>
 
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category, key) => (
+          {categoryKeys.map((category, key) => (
             <button
               key={key}
               onClick={() => setActiveCategory(category)}
@@ -53,7 +56,7 @@ export const SkillsSection = () => {
                   : "bg-secondary/70 text-forefround hover:bd-secondary"
               )}
             >
-              {category}
+              {t(`skills.${category}`)}
             </button>
           ))}
         </div>
