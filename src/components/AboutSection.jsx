@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, ChevronDown, Code, User } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 export const AboutSection = () => {
@@ -35,13 +35,29 @@ export const AboutSection = () => {
                 {t("about.contact")}
               </a>
 
-              <a
-                href="/FurkanSoyluCV.pdf"
-                download="FurkanSoyluCV.pdf"
-                className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
-              >
-                {t("about.downloadCV")}
-              </a>
+              <details className="relative group">
+                <summary className="flex cursor-pointer list-none items-center justify-center gap-2 px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300 [&::-webkit-details-marker]:hidden">
+                  {t("about.downloadCV")}
+                  <ChevronDown className="h-4 w-4 transition-transform duration-200 group-open:rotate-180" />
+                </summary>
+
+                <div className="absolute left-1/2 z-20 mt-2 w-44 -translate-x-1/2 overflow-hidden rounded-xl border border-border bg-background shadow-lg">
+                  <a
+                    href="/FurkanSoyluCV.pdf"
+                    download="FurkanSoyluCV.pdf"
+                    className="block px-4 py-3 text-sm text-foreground hover:bg-primary/10 transition-colors"
+                  >
+                    Türkçe
+                  </a>
+                  <a
+                    href="/FurkanSoyluResume.pdf"
+                    download="FurkanSoyluResume.pdf"
+                    className="block border-t border-border px-4 py-3 text-sm text-foreground hover:bg-primary/10 transition-colors"
+                  >
+                    English
+                  </a>
+                </div>
+              </details>
             </div>
           </div>
 
