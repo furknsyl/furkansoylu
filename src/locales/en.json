@@ -10,25 +10,25 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "tagline": "A confident, continuously learning full stack developer focused on creating innovative solutions. My goal is to create value through technology and make a difference in the software world.",
+    "tagline": "I enjoy taking a problem and turning it into a functional, genuinely useful software solution. I work primarily in full stack development, with a focus on backend systems, databases, and data-driven projects.\n\nI enjoy exploring new technologies, learning things I don't yet know, and continuously improving the projects I build.",
     "cta": "Check Out My Projects",
     "scroll": "Scroll"
   },
   "about": {
     "titlePrefix": "About",
     "titleHighlight": "Me",
-    "subtitle": "Passionate Software Developer & Tech Enthusiast",
-    "bio1": "As an information systems engineering student, I continuously improve myself in full-stack development, data science, and database management. I focus on building functional, accessible, and user-centered solutions with modern technologies.",
-    "bio2": "I greatly enjoy solving complex problems with simple and effective methods. Thanks to my passion for continuous learning, I closely follow developments in the software world and strive to take myself one step further every day.",
-    "bio3": "For more information about me, please download my CV below...",
+    "subtitle": "Software Developer & Tech Enthusiast",
+    "bio1": "I care about both the technical side of software development and ensuring that the final product provides real value to its users.",
+    "bio2": "To me, software development is about more than just writing code. Understanding a problem, designing the right solution, and continuously improving the result are the parts of the process I enjoy most.",
+    "bio3": "I continue to grow by working on a variety of projects and technologies. I am particularly interested in backend development, data, and modern web technologies.\n\nYou can view my CV to learn more about my education, experience, and projects.",
     "contact": "Contact Me",
     "downloadCV": "Download CV",
     "card1Title": "Web Development",
-    "card1Desc": "I build responsive websites and web applications using modern frameworks.",
-    "card2Title": "Data Analysis & Management",
-    "card2Desc": "I analyze data, extract meaningful insights, and develop effective data management solutions.",
-    "card3Title": "Software Development Processes",
-    "card3Desc": "I take an active role in all phases of software projects from planning to development, delivering effective solutions with agile methodologies."
+    "card1Desc": "I build fast, responsive, and user-friendly web applications using modern web technologies. I work across both frontend and backend development, building projects from end to end.",
+    "card2Title": "Data & Databases",
+    "card2Desc": "I enjoy working with data, turning it into meaningful insights, and managing it effectively. I develop projects involving SQL, data analysis, Power BI, and database management.",
+    "card3Title": "Backend & Software Development",
+    "card3Desc": "I develop backend applications and APIs, particularly within the C# and .NET ecosystem. I prioritize clean, maintainable solutions tailored to each project's needs."
   },
   "skills": {
     "titlePrefix": "My",

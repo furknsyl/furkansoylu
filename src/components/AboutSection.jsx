@@ -25,7 +25,7 @@ export const AboutSection = () => {
             <p className="text-muted-foreground">
               {t("about.bio2")}
             </p>
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground whitespace-pre-line">
               {t("about.bio3")}
             </p>
 

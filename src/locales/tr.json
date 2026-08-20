@@ -10,25 +10,25 @@
   },
   "hero": {
     "greeting": "Merhaba, Ben",
-    "tagline": "Kendine güvenen, sürekli öğrenmeye açık ve yenilikçi çözümler üretmeye odaklı bir full stack geliştiriciyim. Amacım, teknolojiyle değer katan işler ortaya koymak ve yazılım dünyasında fark yaratmak.",
+    "tagline": "Yazılım geliştirmeyi, bir problemi alıp çalışan ve gerçekten kullanılabilir bir çözüme dönüştürmeyi seviyorum. Full stack geliştirme başta olmak üzere backend, veritabanları ve veri odaklı projeler üzerine çalışıyorum.\n\nYeni teknolojileri denemekten, bilmediğim şeyleri öğrenmekten ve yaptığım projeleri sürekli geliştirmekten keyif alıyorum.",
     "cta": "Geliştirdiğim Projeler İçin Tıklayınız",
     "scroll": "Kaydır"
   },
   "about": {
     "titlePrefix": "Benim",
     "titleHighlight": "Hakkımda",
-    "subtitle": "Tutkulu Yazılım Geliştiricisi & Teknoloji Meraklısı",
-    "bio1": "Bilişim sistemleri mühendisliği öğrencisi olarak, full-stack geliştirme, veri bilimi ve veritabanı yönetimi alanlarında kendimi sürekli geliştiriyorum. Modern teknolojilerle işlevsel, erişilebilir ve kullanıcı odaklı çözümler üretmeye odaklanıyorum.",
-    "bio2": "Karmaşık problemleri sade ve etkili yöntemlerle çözmekten büyük keyif alıyorum. Sürekli öğrenmeye olan ilgim sayesinde, yazılım dünyasındaki gelişmeleri yakından takip ediyor ve kendimi her gün bir adım ileri taşımaya çalışıyorum.",
-    "bio3": "Benim hakkımda daha fazla bilgi için lütfen aşağıdan cv'yi indiriniz...",
+    "subtitle": "Yazılım Geliştirici & Teknoloji Meraklısı",
+    "bio1": "Yazılım geliştirme sürecinin hem teknik tarafıyla hem de ortaya çıkan ürünün kullanıcıya gerçekten fayda sağlamasıyla ilgileniyorum.",
+    "bio2": "Benim için yazılım sadece kod yazmaktan ibaret değil. Bir problemi anlamak, doğru çözümü tasarlamak ve ortaya çıkan şeyi sürekli daha iyi hale getirmek sürecin en sevdiğim kısmı.",
+    "bio3": "Farklı projeler ve teknolojiler üzerinde çalışarak kendimi geliştirmeye devam ediyorum. Özellikle backend geliştirme, veri ve modern web teknolojileri ilgimi çekiyor.\n\nCV'me göz atarak eğitimim, deneyimlerim ve projelerim hakkında daha detaylı bilgi edinebilirsiniz.",
     "contact": "İletişime Geç",
     "downloadCV": "CV İndir",
     "card1Title": "Web Geliştirme",
-    "card1Desc": "Modern framework'ler kullanarak duyarlı web siteleri ve web uygulamaları geliştiriyorum.",
-    "card2Title": "Veri Analizi & Yönetimi",
-    "card2Desc": "Verileri analiz ediyor, anlamlı içgörüler çıkarıyor ve etkili veri yönetim çözümleri geliştiriyorum.",
-    "card3Title": "Yazılım Geliştirme Süreçleri",
-    "card3Desc": "Planlamadan geliştirmeye kadar yazılım projelerinin tüm aşamalarında aktif rol alıyor, çevik yöntemlerle etkili çözümler üretiyorum."
+    "card1Desc": "Modern web teknolojileri kullanarak hızlı, responsive ve kullanımı kolay web uygulamaları geliştiriyorum. Frontend ve backend taraflarını birlikte ele alarak projelerin uçtan uca geliştirilmesiyle ilgileniyorum.",
+    "card2Title": "Veri & Veritabanları",
+    "card2Desc": "Verilerle çalışmayı, onları anlamlı hale getirmeyi ve doğru şekilde yönetmeyi seviyorum. SQL, veri analizi, Power BI ve veritabanı yönetimi üzerine projeler geliştiriyorum.",
+    "card3Title": "Backend & Yazılım Geliştirme",
+    "card3Desc": "Özellikle C# ve .NET ekosisteminde backend uygulamaları ve API'ler geliştiriyorum. Projelerde temiz, sürdürülebilir ve ihtiyaçlara uygun çözümler oluşturmaya önem veriyorum."
   },
   "skills": {
     "titlePrefix": "Benim",
