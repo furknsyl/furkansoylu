@@ -12,8 +12,8 @@ export const AboutSection = () => {
           {t("about.titlePrefix")} <span className="text-primary"> {t("about.titleHighlight")}</span>
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
+          <div className="flex flex-col gap-6 md:justify-between">
             <h3 className="text-2xl font-semibold">
               {t("about.subtitle")}
             </h3>

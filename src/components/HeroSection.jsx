@@ -27,7 +27,7 @@ export const HeroSection = () => {
             {t("hero.tagline")}
           </p>
 
-          <div className="pt-4 flex justify-center opacity-0 animate-fade-in-delay-4">
+          <div className="pt-8 flex justify-center opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button inline-flex items-center">
               {t("hero.cta")}
             </a>

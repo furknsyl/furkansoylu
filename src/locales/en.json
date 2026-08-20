@@ -10,7 +10,7 @@
   },
   "hero": {
     "greeting": "Hello, I'm",
-    "tagline": "I enjoy taking a problem and turning it into a functional, genuinely useful software solution. I work primarily in full stack development, with a focus on backend systems, databases, and data-driven projects.\n\nI enjoy exploring new technologies, learning things I don't yet know, and continuously improving the projects I build.",
+    "tagline": "I enjoy turning problems into useful software solutions. I enjoy exploring new technologies, learning new things, and continuously improving the projects I build.",
     "cta": "Check Out My Projects",
     "scroll": "Scroll"
   },
